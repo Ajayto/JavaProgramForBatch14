@@ -11,11 +11,12 @@ public class TreeMapInjava {
 		tm.put(1008, "tom");
 		tm.put(1009, 10);
 		tm.put(1005, "bob");
+		tm.put(1007, "tom1");
 		
 	   
 		NavigableMap<Integer, Object> nm=  tm.descendingMap();
 		
-		System.out.println(tm);
+		System.out.println(tm.);
 		System.out.println(nm);
 		
 
